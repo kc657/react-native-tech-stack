@@ -6,7 +6,7 @@ import * as actions from '../actions'
 
 class ListItem extends Component {
 
-  componentWillUpdate() {
+  componentWillUpdate () {
     LayoutAnimation.spring()
   }
 
